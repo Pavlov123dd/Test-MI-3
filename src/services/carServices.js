@@ -1,0 +1,1 @@
+export const getVehicle = (API) => fetch(API).then(data=> data.json());
